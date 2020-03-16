@@ -6,7 +6,6 @@ def directors_totals(nds)
   totals = {}         #create empty hash
 
   while director_index < nds.length do
-  end
     director_name = nds[director_index][:name]
     totals[director_name] = 0
     movie_index = 0
